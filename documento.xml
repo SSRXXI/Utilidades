@@ -1,0 +1,28 @@
+<CHIE xsi:noNamespaceSchemaLocation="chie.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Header><wsse:Security xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"/></Header><Header><wsse:Security xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"/></Header>
+	<DATOS_ID>
+		<CORRELATIVO>3CV-AT-000000001</CORRELATIVO>
+		<PPU>AAAA-00</PPU>
+	</DATOS_ID>
+	<FECHAS_EMISION_VALIDEZ>
+		<FECHAEMISION>2019-12-01</FECHAEMISION>
+		<VALIDOHASTA>2022-12-01</VALIDOHASTA>
+	</FECHAS_EMISION_VALIDEZ>
+	<DATOSVEHICULO>
+		<CIT>AAAAAAAAAAAAAAAAA</CIT>
+		<TIPO>AUTO</TIPO>
+		<MARCA>MARCA</MARCA>
+		<ANIO>2019</ANIO>
+		<MODELO>MODELO</MODELO>
+		<COLOR>COLOR</COLOR>
+		<VIN>BBBBBBBBBB</VIN>
+		<NUMERO_MOTOR>CCCCCCCCCCCCCCC</NUMERO_MOTOR>
+	</DATOSVEHICULO>
+	<DATOS_EMISOR>
+		<RAZONSOCIAL>MTT</RAZONSOCIAL>
+		<DIRECCION>Amunategui 139</DIRECCION>
+		<COMUNA>Santiago</COMUNA>
+		<CIUDAD>Santiago</CIUDAD>
+		<EMAIL>chie@mtt.cl</EMAIL>
+		<FONO>+5655578994</FONO>
+	</DATOS_EMISOR>
+</CHIE>

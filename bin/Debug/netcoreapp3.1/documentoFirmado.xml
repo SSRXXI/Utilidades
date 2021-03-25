@@ -1,0 +1,28 @@
+<CHIE xsi:noNamespaceSchemaLocation="chie.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Header><wsse:Security xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" /></Header><Header><wsse:Security xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" /></Header>
+	<DATOS_ID>
+		<CORRELATIVO>3CV-AT-000000001</CORRELATIVO>
+		<PPU>AAAA-00</PPU>
+	</DATOS_ID>
+	<FECHAS_EMISION_VALIDEZ>
+		<FECHAEMISION>2019-12-01</FECHAEMISION>
+		<VALIDOHASTA>2022-12-01</VALIDOHASTA>
+	</FECHAS_EMISION_VALIDEZ>
+	<DATOSVEHICULO>
+		<CIT>AAAAAAAAAAAAAAAAA</CIT>
+		<TIPO>AUTO</TIPO>
+		<MARCA>MARCA</MARCA>
+		<ANIO>2019</ANIO>
+		<MODELO>MODELO</MODELO>
+		<COLOR>COLOR</COLOR>
+		<VIN>BBBBBBBBBB</VIN>
+		<NUMERO_MOTOR>CCCCCCCCCCCCCCC</NUMERO_MOTOR>
+	</DATOSVEHICULO>
+	<DATOS_EMISOR>
+		<RAZONSOCIAL>MTT</RAZONSOCIAL>
+		<DIRECCION>Amunategui 139</DIRECCION>
+		<COMUNA>Santiago</COMUNA>
+		<CIUDAD>Santiago</CIUDAD>
+		<EMAIL>chie@mtt.cl</EMAIL>
+		<FONO>+5655578994</FONO>
+	</DATOS_EMISOR>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>tZwi4RphHQbM1T7Vy7UNt8b5e2N0d6GpCmikyA5H9Lk=</DigestValue></Reference></SignedInfo><SignatureValue>fUUm4Oy9lL8Lr2eFXG9cTS+22P/dM/NTXV9tNDNyRP/51bBPl8kNxrxvTJkPypEbNsBkOcb01WRgO97nAQoVCWgl+3tsJOpn1IBC8CXmlr4aCe/sIEzaDFBhJIpBuJnp6fEL39LLVasMfTmYbHmM3IH0wxr9QSbHA6Mdcm10odITjmpA8g2t7mXrJNEGRgAoDieOXrzqKgcf+OteJeo7mfqrvSzVCPwcSIKIDP0x/Kpt77e571eXb/GFaKF/SDdiajLuV5HISvBsbn+WzELeoFU1fY2p2EpUBSlCdtBmhGyY0A30nYa6GVqIFOOlX6KvC6O+pKsE2nLH3TD3qhfeBw==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></CHIE>
